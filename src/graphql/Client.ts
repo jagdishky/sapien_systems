@@ -2,9 +2,8 @@ import { ApolloClient, from, InMemoryCache } from "@apollo/client";
 import { setContext } from '@apollo/client/link/context';
 import { onError } from "apollo-link-error";
 import { createUploadLink } from 'apollo-upload-client';
-// import { getErrorMessage } from '../utility/Utils';
 
-export const BASE_URL = 'https://apidev4.sapien.systems/' // "https://stage-api.autolyzer.com/"
+export const BASE_URL = 'https://apidev4.sapien.systems/'
 export const BASE_GRAPH_QL_URL = BASE_URL + 'graphql/'
 export const BASE_MEDIA_URL = BASE_URL + 'media'
 

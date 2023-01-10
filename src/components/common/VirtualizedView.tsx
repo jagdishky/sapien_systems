@@ -13,10 +13,6 @@ class VirtualizedView extends PureComponent<MyProps> {
 
     constructor(props: any) {
         super(props)
-        // interface renderItemProps {
-        //     renderItem: any
-        //     index: number
-        // }
     }
 
     render() {

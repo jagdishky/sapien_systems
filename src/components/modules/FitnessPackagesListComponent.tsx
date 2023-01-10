@@ -19,7 +19,7 @@ const FitnessPackagesListComponent = () => {
     console.log(fitnessPackageLoading);
 
     return (
-        <View style={styles.mainContainer} key={"FitnessPackagesListComponent"} >
+        <View key={"FitnessPackagesListComponent"} >
             <FlatList
                 data={fitnessPackageLoading || fitnessPackageLoading == undefined ? [1, 1, 1, 1] : fitnessPackageRes && fitnessPackageRes[GQL_TYPE_FITNESS_PACKAGES].data}
                 renderItem={({ item, index }) => {
@@ -43,11 +43,6 @@ const FitnessPackagesListComponent = () => {
     )
 }
 
-const styles = StyleSheet.create({
-    mainContainer: {
-        // marginVertical: spacing.MARGIN_18,
-    },
-})
 
 
 export default FitnessPackagesListComponent;

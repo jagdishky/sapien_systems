@@ -142,7 +142,6 @@ const styles = StyleSheet.create({
     },
     tagContainer: {
         paddingHorizontal: spacing.PADDING_8,
-        // paddingVertical: spacing.PADDING_4,
         backgroundColor: colors.amber100,
         borderRadius: spacing.RADIUS_90
     },

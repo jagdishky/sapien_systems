@@ -57,19 +57,15 @@ const styles = StyleSheet.create({
         justifyContent: 'center'
     },
     backArrowContainer: {
-        // position: "absolute",
-        borderWidth: 1,
         width: spacing.WIDTH_60,
         height: spacing.WIDTH_30,
         justifyContent: 'center',
         alignSelf: 'flex-start'
-        // left: spacing.MARGIN_12,
     },
     backArrowIcon: {
         width: spacing.WIDTH_12,
         height: spacing.WIDTH_12,
         transform: [{ rotate: '180deg' }],
-        // left: spacing.MARGIN_12
     },
     title: {
         flex: 1,

@@ -67,17 +67,13 @@ const styles = StyleSheet.create({
         height: HEIGHT,
     },
     videoStyle: {
-        // flex: 1,
-        // width: spacing.FULL_WIDTH,
         height: HEIGHT,
-        // borderRadius: spacing.RADIUS_10,
         backgroundColor: colors.grey200,
     },
     resumeButtonView: {
         position: "absolute",
         width: "100%",
         height: HEIGHT,
-        // borderRadius: spacing.RADIUS_12,
         justifyContent: "center",
         alignItems: "center",
     },
@@ -87,7 +83,6 @@ const styles = StyleSheet.create({
         width: "100%",
         height: HEIGHT,
         opacity: 0.6,
-        // borderRadius: spacing.RADIUS_12,
     },
     bufferStyle: {
         position: "absolute",
@@ -95,7 +90,6 @@ const styles = StyleSheet.create({
         height: HEIGHT,
         justifyContent: "center",
         backgroundColor: colors.transparentBlack,
-        // borderRadius: spacing.RADIUS_12,
     },
     playButtonContainer: {
         backgroundColor: colors.red900,

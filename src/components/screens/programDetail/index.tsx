@@ -311,7 +311,6 @@ const styles = StyleSheet.create({
         width: spacing.FULL_WIDTH / 4,
         alignItems: "center",
         borderColor: colors.blue400,
-        // borderWidth: 1,
         paddingVertical: spacing.PADDING_4
     },
     renderPeriodRowMainContainer_text: {
@@ -325,8 +324,6 @@ const styles = StyleSheet.create({
         fontSize: textScale(12),
         paddingHorizontal: spacing.PADDING_4
     },
-    // equipmentContainer:{},
-
     renderWorkingProcessMainContainer: {
         flexDirection: 'row',
     },

@@ -72,7 +72,6 @@ function BottomTabs({ }) {
           },
           tabBarLabelStyle: { alignSelf: 'center' },
           tabBarAllowFontScaling: true,
-          // tabBarItemStyle: { alignSelf: 'center', justifyContent: 'center' },
           headerShown: false,
         }}>
         {tabData.map((item, index) => {
